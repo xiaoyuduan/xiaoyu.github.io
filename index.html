@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Live a healthy life!</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<script src="js/setHomeSetFav.js" type="text/javascript" charset="gb2312"></script>
+<script src="../LifeFitnessWebsite/js/myfocus-2.0.1.min.js"type="text/javascript"></script><!--引用myFocus库文件-->
+<script src="..LifeFitnessWebsite/js/mf-pattern/mF_YSlider.js" type="text/javascript"></script><!--引用风格js文件-->
+<link href="js/mf-pattern/mF_YSlider.css" rel="stylesheet" type="text/css" /><!--引用风格css文件-->
+<script type="text/javascript">
+	myFocus.set({
+		id:'picBox'
+	});
+</script>
+</head>
+
+<body>
+<div class="top">
+	<div class="top_content">
+		<ul>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#" onclick="AddFavorite(window.location,document.title)">Add to Favorite</a></li>
+			<li><a href="#" onclick="SetHome(window.location)"> Set as Home</a></li>
+		</ul>
+	</div>
+</div><!--top finished-->
+<div class="wrap">
+	<div class="logo">
+		<div class="logo_left">
+			<img src="images/logo.jpg" alt="LifeFitness" />
+		</div>
+		<div class="logo_right">
+			<img src="images/tel.jpg" alt="Tel" />Phone Number(24hrs)：<span class="tel">800-351-3737 </span>
+		</div>
+	</div><!--logo finished-->
+
+	<div class="nav">
+		<div class="nav_left"></div>
+		<div class="nav_mid">
+			<div class="nav_mid_left">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="list.html">About Us</a></li>
+					<li><a href="list.html">News</a></li>
+					<li><a href="list.html">Classes</a></li>
+					<li><a href="list.html">Videos</a></li>
+					<li><a href="list.html">Join Us</a></li>
+				</ul>
+			</div>
+			<div class="nav_mid_right">
+				<form action="" method="post">
+					<input type="text" class="search_text" />
+				</form>
+			</div>
+		</div>		<!--nav_mid finished-->
+		<div class="nav_right"></div>
+	</div><!--nav finished-->
+
+	<div class="ad" id="picBox"> 
+			<div class="loading"><img src="images/loading.gif" alt="Loading Pictures"></div>
+			<div class="pic">
+				<ul>
+					<li><img src="images/ad1.png"></li>
+					<li><img src="images/ad2.jpg"></li>
+					<li><img src="images/ad3.jpg"></li>
+				</ul>
+			</div>
+	</div><!--ad finished-->
+	<div class="main">
+		<div class="news">
+			<div class="title">
+				<h2 class="title_left">News Center</h2><span class="title_right"><a href="news.html">More&gt;&gt;</a></span>
+			</div><!--title finished-->
+			<div class="pic_news">
+				<img src="images/news.jpg" /><h2><a href="news.html">Product Innovation</a></h2><p>Life Fitness innovation begins with product design and conception and doesn't end until our fitness equipment ships out of the warehouse. It's essential to creating the best fitness equipment in the industry.   <a href="news.html">Learn More&gt&gt</a></p>
+			</div><!--pic_news finished-->
+			<div class="news_list">
+				<ul>
+					<li><span>July 22, 2016</span><a href="news.html">Small Group Training That Exceeds Expectations</a></li>
+					<li><span>July 16, 2016</span><a href="news.html">16 Ideas Fof A Healthy, Feel-good Home</a></li>
+					<li><span>July 07, 2016</span><a href="news.html">How To Add Rowing To Your Cardio Routine</a></li>
+				</ul>
+			</div><!--news_list finished-->
+		</div><!--course finished-->
+		<div class="course">
+			<div class="title">
+				<h2 class="title_left">Products Details</h2><span class="title_right"><a href="news.html">More&gt;&gt;</a></span>
+			</div><!--title finished-->
+			<div class="course_pic">
+				<img src="images/cardio.jpg" /><h2><a href="news.html">Cardio</a></h2><p>More than 500,000 Life Fitness treadmills have been created since 1991. Our treadmills for commercial gyms have a reputation for reliability and comfort. The FlexDeck Shock Absorption System, reduces stress and provides an effective cardio workout suited for exercisers of all fitness levels. </p>
+			</div><!--course_pic finished-->
+
+			<div class="course_type">
+				<ul>
+					<li>Group Traning</li>
+					<li>Strength Traning</li>
+					<li>Accessories</li>
+					<li>Digital</li>
+				</ul>
+			</div><!--course_type finished-->
+		</div>
+		<div class="sidebar">
+			<div class="video">
+				<div class="title_left"><h2>Network</h2></div>
+				<div class="video_content">
+				<iframe width="220" height="140" src="https://www.youtube.com/embed/0aNNYEUARAk" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="sidebar_ad">
+				<img src="images/network.gif">
+			</div>
+		</div><!--sidebar finished-->
+	</div><!--main finished-->
+</div><!--wrap finished-->
+<div class="copyright">
+	<div class="copyright_content">
+		<ul>
+			<li><a href="#">About</a>
+				<ul>
+					<li><a href="#">Our Story</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Join Us</a></li>
+					<li><a href="#">Copyright</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Products</a>
+				<ul>
+					<li><a href="#">Product Catalog</a></li>
+					<li><a href="#">Products for Facilities</a></li>
+					<li><a href="#">Products for Home</a></li>
+					<li><a href="#">Software Release Center</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contact</a>
+				<ul>
+					<li><a href="#">Email</a></li>
+					<li><a href="#">Phone Number</a></li>
+					<li><a href="#">Address</a></li>
+					<li><a href="#">Fax</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Support</a>
+				<ul>
+					<li><a href="#">FeedBack</a></li>
+					<li><a href="#">Questions</a></li>
+					<li><a href="#">Social Network</a></li>
+					<li><a href="#">Online Service</a></li>
+				</ul>
+			</li>
+			<li><div class="test"><a href="#">APP Download</a></div>
+				<ul>
+					<li><img src="images/app.png"></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
